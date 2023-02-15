@@ -1,30 +1,63 @@
 .body {
   background-color: #ffafcc;
 }
-
-.body a {
+a {
   text-decoration: underline;
   color: #001011;
 }
 
-.body p {
+p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   width: 1000px;
   color: #093A3E;
   font-size: 20px;
 }
 
-.body h1 {
+h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
 }
 
-.body strong {
+strong {
   font-style: italic;
 }
 
-.body ul, li {
+ul, li {
   font-size: 18px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #093A3E;
+}
+
+.header {
+  text-align: center;
+}
+
+.foto {
+  text-align: left;
+  padding: 10px;
+  background-color: #e26693;
+  width: 680px;
+}
+
+p.descrip {
+  padding-left: 220px;
+  position: absolute;
+  top: 200px;
+  text-align: left;
+  width: 470px;
+}
+
+li:nth-child(odd) {
+  width: fit-content;
+  background-color: #f383ac;
+}
+
+li:nth-child(even) {
+  width: fit-content;
+  background-color: #f85c95;
+}
+
+.outro {
+  width: fit-content;
+  background-color: #e26693;
 }
